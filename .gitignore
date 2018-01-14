@@ -7,7 +7,7 @@
 !/log/.keep
 !/tmp/.keep
 # Ignore all yml configs
-*.yml
+/config/*.yml
 
 # Ignore application configuration
 /config/application.yml
