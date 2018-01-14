@@ -31,7 +31,9 @@ module D2live
 
     config.secret_key_base = ENV.fetch('SECRET_KEY_BASE')
     config.autoload_paths += [Rails.root.join('app/commands/bot'), Rails.root.join('app/factories')]
-    config.i18n.enforce_available_locales = true
+
+    config.i18n.available_locales = %i(ru en)
     config.i18n.default_locale = :ru
+    config.i18n.enforce_available_locales = true
   end
 end
