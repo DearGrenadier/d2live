@@ -4,14 +4,16 @@ task track_matches: :environment do
     config.api_key = ENV.fetch('STEAM_API_KEY')
   end
   api = Dota.api
-  file = File.open('log/matches_info.log', 'a')
-  logger = Logger.new(file, 'weekly')
+  logger = Logger.new(File.open('log/matches_info.log', 'a'), 'weekly')
   logger.formatter = proc do |severity, datetime, progname, msg|
     "#{datetime.strftime('%d/%m/%y %H:%M:%S %Z')}  --  #{msg}\n"
   end
 
   pro_matches = api.live_matches.select { |match| match.league_tier == Match::PRO_TIER }
-  next if pro_matches.empty?
+  if pro_matches.empty?
+    logger.info "There is no live matches"
+    next
+  end
 
   pro_matches.map! do |pro_match|
     match_id = pro_match.raw.delete('match_id')
