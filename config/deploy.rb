@@ -20,3 +20,5 @@ set :puma_preload_app, true
 set :puma_init_active_record, true
 
 set :nginx_server_name, 'nazarchuk.tk'
+
+ set :whenever_environment, fetch(:stage)
