@@ -15,7 +15,7 @@ task track_matches: :environment do
     next
   end
 
-  pro_matches = live_matches.select { |match| match.league_tier.in? Match::PRO_TIERS }
+  pro_matches = live_matches.select { |match| match.league_tier.in? Match::PRO_TIERS.values }
 
   pro_matches.map! do |pro_match|
     match_id = pro_match.raw.delete('match_id')
