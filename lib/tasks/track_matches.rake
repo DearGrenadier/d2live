@@ -9,11 +9,13 @@ task track_matches: :environment do
     "#{datetime.strftime('%d/%m/%y %H:%M:%S %Z')}  --  #{msg}\n"
   end
 
-  pro_matches = api.live_matches.select { |match| match.league_tier == Match::PRO_TIER }
-  if pro_matches.empty?
+  live_matches = api.live_matches
+  if live_matches.empty?
     logger.info "There is no live matches"
     next
   end
+
+  pro_matches = live_matches.select { |match| match.league_tier.in? Match::PRO_TIERS }
 
   pro_matches.map! do |pro_match|
     match_id = pro_match.raw.delete('match_id')

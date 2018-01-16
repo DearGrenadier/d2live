@@ -1,5 +1,5 @@
 class Match < ApplicationRecord
-  PRO_TIER = 'Premier'
+  PRO_TIERS = %w[Premier Proffesional]
 
   scope :live, -> { where(finished: false) }
   scope :finished, -> { where(finished: true) }
