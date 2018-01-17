@@ -1,7 +1,7 @@
 class Match < ApplicationRecord
   PRO_TIERS = {
     3 => 'Premier',
-    2 => 'Proffesional'
+    2 => 'Professional'
   }.freeze
 
   scope :live, -> { where(finished: false) }
