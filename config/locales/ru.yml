@@ -1,4 +1,8 @@
 ru:
+  activerecord:
+    errors:
+      messages:
+        record_invalid:
   commands:
     start:
       success: "Вы успешно подписались на уведомления от @d2live_bot!"

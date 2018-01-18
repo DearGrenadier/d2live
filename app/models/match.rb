@@ -7,12 +7,14 @@ class Match < ApplicationRecord
   scope :live, -> { where(finished: false) }
   scope :finished, -> { where(finished: true) }
 
+  validates :id, uniqueness: true
+
   def teams
     [raw.fetch('radiant_team'), raw.fetch('dire_team')].map { |team| team.fetch('team_name') }.join(' -vs- ')
   end
 
-  def league
-    raw.fetch('league_id')
+  def league_name
+    League.find_by_id(raw.fetch('league_id'))&.name
   end
 
   def tier

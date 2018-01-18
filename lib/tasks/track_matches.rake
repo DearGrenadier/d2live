@@ -4,7 +4,7 @@ task track_matches: :environment do
     config.api_key = ENV.fetch('STEAM_API_KEY')
   end
   api = Dota.api
-  logger = Logger.new(File.open('log/matches_info.log', 'a'), 'weekly')
+  logger = Logger.new(File.open('log/track_matches.log', 'a'), 'weekly')
   logger.formatter = proc do |severity, datetime, progname, msg|
     "#{datetime.strftime('%d/%m/%y %H:%M:%S %Z')}  --  #{msg}\n"
   end

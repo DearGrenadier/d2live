@@ -5,13 +5,13 @@
 <hr/>
 <p><b>Live matches:</b></p>
 <% @live_matches.each do |match| %>
-  <%= "[#{match.tier}] #{match.teams}" %>
+  <%= "[#{match.league_name} | #{match.tier}] #{match.teams}" %>
   </br>
 <% end %>
 <hr/>
 <p><b>Recent matches:</b></p>
 <% @finished_matches.each do |match| %>
-  <%= "[#{match.tier}] #{match.teams}" %>
+  <%= "[#{match.league_name} | #{match.tier}] #{match.teams}" %>
   </br>
 <% end %>
 <hr/>
