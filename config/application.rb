@@ -30,7 +30,7 @@ module D2live
     config.generators.system_tests = nil
 
     config.secret_key_base = ENV.fetch('SECRET_KEY_BASE')
-    config.autoload_paths += [Rails.root.join('app/commands/bot'), Rails.root.join('app/factories')]
+    config.autoload_paths += %w[app/commands/bot app/factories].map { |path| Rails.root.join(path) }
 
     config.i18n.default_locale = :ru
   end

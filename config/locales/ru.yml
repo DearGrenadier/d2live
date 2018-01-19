@@ -8,3 +8,6 @@ ru:
       success: "Вы успешно подписались на уведомления от @d2live_bot!"
       fail: "Вы уже подписаны на уведомления от @d2live_bot!"
     unknown: "Неизвестная команда. Список доступных команд и их описание - /info"
+  notifications:
+    match_end: "В рамках %{league} закончился матч %{teams}"
+    match_start: "В рамках %{league} начался матч %{teams}"

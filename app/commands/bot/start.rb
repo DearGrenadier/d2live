@@ -4,9 +4,9 @@ module Bot
 
     def execute
       Chat.create!(id: chat_id)
-      bot.api.send_message(chat_id: chat_id, text: I18n.t('commands.start.success'))
+      TELEGRAM_BOT_CLIENT.api.send_message(chat_id: chat_id, text: I18n.t('commands.start.success'))
     rescue
-      bot.api.send_message(chat_id: chat_id, text: I18n.t('commands.start.fail'))
+      TELEGRAM_BOT_CLIENT.api.send_message(chat_id: chat_id, text: I18n.t('commands.start.fail'))
     end
   end
 end

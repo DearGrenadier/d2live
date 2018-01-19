@@ -10,26 +10,23 @@ task track_matches: :environment do
   end
 
   live_matches = api.live_matches
-  if live_matches.empty?
-    logger.info "There is no live matches"
-    next
-  end
+  next logger.info "There is no live matches" if live_matches.empty?
 
   pro_matches = live_matches.select { |match| match.league_tier.in? Match::PRO_TIERS.values }
-
   pro_matches.map! do |pro_match|
-    match_id = pro_match.raw.delete('match_id')
+    match_id = pro_match.raw.fetch('match_id')
     begin
-      Match.create!(id: match_id, raw: pro_match.raw)
+      RegisterNewMatchWorker.perform_async(pro_match.raw)
     rescue
       Match.find(match_id)
     end
   end
 
   live_match_ids = Match.live.map(&:id)
+
   finished_match_ids = live_match_ids - pro_matches.map(&:id)
   Match.where(id: finished_match_ids).each do |match|
-    match.update!(finished: true)
+    RegisterFinishedMatchWorker.perform_async(match)
   end
 
   logger.info pro_matches.reduce('') { |memo, pro_match| memo.concat("| #{pro_match.teams}|") }

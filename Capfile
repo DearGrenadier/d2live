@@ -28,12 +28,11 @@ install_plugin Capistrano::SCM::Git
 #
 require "capistrano/rbenv"
 require "capistrano/bundler"
-# require "capistrano/rails/assets"
-# require 'capistrano/rails'
 require "capistrano/rails/migrations"
 require 'capistrano/puma'
 require 'capistrano/rake'
 require 'whenever/capistrano'
+require 'capistrano/sidekiq'
 
 install_plugin Capistrano::Puma
 install_plugin Capistrano::Puma::Nginx

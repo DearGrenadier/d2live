@@ -13,9 +13,5 @@ module Bot
     def chat_id
       @data.fetch('message').fetch('chat').fetch('id')
     end
-
-    def bot
-      @bot ||= Telegram::Bot::Client.new(ENV.fetch('TELEGRAM_BOT_API_TOKEN'))
-    end
   end
 end
