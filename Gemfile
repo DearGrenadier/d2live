@@ -26,7 +26,7 @@ group :development do
   gem 'capistrano-rbenv', '2.1.3', require: false
   gem 'capistrano-bundler', '1.3.0', require: false
   gem 'capistrano-rake', '0.1.0', require: false
-  gem 'capistrano-sidekiq',
+  gem 'capistrano-sidekiq', '0.20.0', require: false
   gem 'listen', '3.1.5'
   gem 'spring', '2.0.2'
   gem 'spring-watcher-listen', '2.0.1'
