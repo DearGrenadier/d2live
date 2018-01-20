@@ -1,8 +1,9 @@
 class RegisterFinishedMatchWorker
   include Sidekiq::Worker
 
-  def perform(finished_match)
-    finished_match.update!(finished: true)
-    MatchEndNotification.new(finished_match).send
+  def perform(match_id)
+    match = Match.find(match_id)
+    match.update!(finished: true)
+    MatchEndNotification.new(match).send
   end
 end

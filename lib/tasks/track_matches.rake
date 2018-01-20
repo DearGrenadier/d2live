@@ -23,7 +23,7 @@ task track_matches: :environment do
 
   finished_match_ids = live_match_ids - pro_match_ids
   Match.where(id: finished_match_ids).each do |match|
-    RegisterFinishedMatchWorker.perform_async(match)
+    RegisterFinishedMatchWorker.perform_async(match.id)
   end
 
   logger.info pro_match_ids.reduce('') { |memo, pro_match_id| memo.concat("| #{pro_match_id} |") }
