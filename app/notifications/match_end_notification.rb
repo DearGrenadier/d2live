@@ -1,6 +1,6 @@
 class MatchEndNotification
-  def initialize(match)
-    @match = match
+  def initialize(finished_match)
+    @match = finished_match
   end
 
   def send
