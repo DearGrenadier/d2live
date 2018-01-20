@@ -1,4 +1,4 @@
-class RegiseterFinishedMatchWorker
+class RegisterFinishedMatchWorker
   include Sidekiq::Worker
 
   def perform(match)
