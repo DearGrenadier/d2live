@@ -10,7 +10,9 @@ class Match < ApplicationRecord
   validates :id, uniqueness: true
 
   def teams
-    [raw.fetch('radiant_team'), raw.fetch('dire_team')].map { |team| team.fetch('team_name') }.join(' -vs- ')
+    [raw.fetch('radiant_team', {}), raw.fetch('dire_team', {})].map do |team|
+      team.fetch('team_name', 'UNKNOWN')
+    end.join(' -vs- ')
   end
 
   def league_name
