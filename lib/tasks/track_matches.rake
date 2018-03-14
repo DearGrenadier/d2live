@@ -1,18 +1,15 @@
 desc 'Track live matches info'
 task track_matches: :environment do
-  Dota.configure do |config|
-    config.api_key = ENV.fetch('STEAM_API_KEY')
-  end
-  api = Dota.api
   logger = Logger.new(File.open('log/track_matches.log', 'a'), 'weekly')
   logger.formatter = proc do |severity, datetime, progname, msg|
     "#{datetime.strftime('%d/%m/%y %H:%M:%S %Z')}  --  #{msg}\n"
   end
 
-  live_matches = api.live_matches
+  live_matches = DOTA_CLIENT.live_matches
   next logger.info "There is no live matches" if live_matches.empty?
 
   pro_matches = live_matches.select { |match| match.league_tier.in? Match::PRO_TIERS.values }
+  binding.pry
   pro_match_ids = pro_matches.map do |pro_match|
     match_id = pro_match.raw.fetch('match_id')
     RegisterNewMatchWorker.perform_async(pro_match.raw) unless Match.exists?(match_id)
