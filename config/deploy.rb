@@ -1,7 +1,7 @@
 lock "~> 3.10.0"
 
 set :user, 'nazarchuk_dima'
-server '35.198.156.182', user: fetch(:user),roles: %i(web app db)
+server '35.198.173.10', user: fetch(:user),roles: %i(web app db)
 set :application, 'd2live'
 set :repo_url, 'git@github.com:DearGrenadier/d2live.git'
 set :deploy_to, "/home/#{fetch(:user)}/apps/#{fetch(:application)}"
