@@ -17,6 +17,7 @@ gem 'sidekiq', '5.0.5'
 gem 'wkhtmltoimage-binary', '0.12.4', require: false
 gem 'imgkit', '1.6.1'
 gem 'carrierwave', '1.2.2'
+gem 'mini_magick'
 
 group :development, :test do
   gem 'pry', '0.11.2'

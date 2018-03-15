@@ -4,10 +4,15 @@
   </head>
   <body>
     <div style="float: left">
-      <%= image_tag image_url(@match.radiant_team.logo.url) %>
+      <%= image_tag image_url(@match.radiant_team.logo.thumb.url) %>
+      <span><%= @match.radiant_team.name %></span>
     </div>
     <div>
-      <%= image_tag image_url(@match.dire_team.logo.url) %>
+      <%= @match.league_name %>
+    </div>
+    <div>
+      <%= image_tag image_url(@match.dire_team.logo.thumb.url) %>
+      <span><%= @match.dire_team.name %></span>
     </div>
   </body>
 </html>
