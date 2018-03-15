@@ -7,7 +7,7 @@ set :repo_url, 'git@github.com:DearGrenadier/d2live.git'
 set :deploy_to, "/home/#{fetch(:user)}/apps/#{fetch(:application)}"
 
 append :linked_files, 'config/database.yml', 'config/application.yml'
-append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets"
+append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", 'public/uploads'
 
 set :puma_workers, 1
 set :puma_threads, [4, 16]
