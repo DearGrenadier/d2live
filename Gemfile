@@ -5,7 +5,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-gem 'rails', '5.1.4'
+gem 'rails', '5.1.6'
 gem 'pg', '0.21.0'
 gem 'puma', '3.10.0'
 gem 'figaro', '1.1.1'
@@ -17,7 +17,8 @@ gem 'sidekiq', '5.0.5'
 gem 'wkhtmltoimage-binary', '0.12.4', require: false
 gem 'imgkit', '1.6.1'
 gem 'carrierwave', '1.2.2'
-gem 'mini_magick'
+gem 'mini_magick', '4.8.0'
+gem 'foreman', '0.64.0'
 
 group :development, :test do
   gem 'pry', '0.11.2'
