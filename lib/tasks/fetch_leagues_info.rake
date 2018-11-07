@@ -1,6 +1,6 @@
-desc 'Obtain leagues info'
-task obtain_leagues_info: :environment do
-  logger = Logger.new(File.open('log/obtain_leagues_info.log', 'a'), 'weekly')
+desc 'Fetches leagues info'
+task fetch_leagues_info: :environment do
+  logger = Logger.new(File.open('log/fetch_leagues_info.log', 'a'), 'weekly')
   logger.formatter = proc do |_, datetime, _, msg|
     "#{datetime.strftime('%d/%m/%y %H:%M:%S %Z')}  --  #{msg}\n"
   end

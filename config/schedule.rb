@@ -6,5 +6,5 @@ every 1.minute do
 end
 
 every 1.day do
-  rake 'obtain_leagues_info'
+  rake 'fetch_leagues_info'
 end
