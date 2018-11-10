@@ -19,6 +19,7 @@ gem 'imgkit', '1.6.1'
 gem 'carrierwave', '1.2.2'
 gem 'mini_magick', '4.8.0'
 gem 'foreman', '0.64.0'
+gem 'rubocop', '0.60.0', require: false
 
 group :development, :test do
   gem 'pry', '0.11.2'
