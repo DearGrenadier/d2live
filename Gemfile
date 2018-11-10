@@ -25,6 +25,7 @@ gem 'wkhtmltoimage-binary', '0.12.4', require: false
 
 group :development, :test do
   gem 'pry', '0.11.2'
+  gem 'rspec-rails', '3.8.1'
 end
 
 group :development do
