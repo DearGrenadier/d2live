@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 set :output, 'log/whenever.log'
 set :environment, :development
 

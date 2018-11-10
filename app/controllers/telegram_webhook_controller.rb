@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class TelegramWebhookController < ApplicationController
   def show
     data = JSON.parse(request.body.read)

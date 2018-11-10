@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 desc 'Set Telegram webhook'
 task :set_webhook, [:url] do |_, args|
   url = args.url || ENV.fetch('HOST_URL', nil)

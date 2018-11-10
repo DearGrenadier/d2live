@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class BotCommandFactory
   COMMANDS_MAPPING = {
     Bot::Start::KEY => Bot::Start,

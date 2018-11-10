@@ -1,0 +1,15 @@
+AllCops:
+  Include:
+    - '**/*.rb'
+    - '**/*.rake'
+    - '**/*.ru'
+    - '**/Gemfile'
+    - '**/Rakefile'
+  Exclude:
+    - 'db/**/*.rb'
+    - 'bin/*'
+  TargetRubyVersion: 2.5
+Metrics/LineLength:
+  Max: 120
+Style/Documentation:
+  Enabled: false

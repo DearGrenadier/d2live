@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class MatchEndNotification
   def initialize(match)
     @match = match

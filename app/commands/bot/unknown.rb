@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Bot
   class Unknown < Base
     def execute

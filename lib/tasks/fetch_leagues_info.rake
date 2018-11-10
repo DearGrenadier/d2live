@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 desc 'Fetches leagues info'
 task fetch_leagues_info: :environment do
   logger = Logger.new(File.open('log/fetch_leagues_info.log', 'a'), 'weekly')

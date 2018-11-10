@@ -10,28 +10,26 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180315171340) do
-
+ActiveRecord::Schema.define(version: 20_180_315_171_340) do
   # These are extensions that must be enabled in order to support this database
-  enable_extension "plpgsql"
+  enable_extension 'plpgsql'
 
-  create_table "chats", force: :cascade do |t|
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+  create_table 'chats', force: :cascade do |t|
+    t.datetime 'created_at', null: false
+    t.datetime 'updated_at', null: false
   end
 
-  create_table "leagues", force: :cascade do |t|
-    t.json "raw", null: false
+  create_table 'leagues', force: :cascade do |t|
+    t.json 'raw', null: false
   end
 
-  create_table "matches", force: :cascade do |t|
-    t.json "raw", null: false
-    t.boolean "finished", default: false, null: false
+  create_table 'matches', force: :cascade do |t|
+    t.json 'raw', null: false
+    t.boolean 'finished', default: false, null: false
   end
 
-  create_table "teams", force: :cascade do |t|
-    t.json "raw", null: false
-    t.string "logo", null: false
+  create_table 'teams', force: :cascade do |t|
+    t.json 'raw', null: false
+    t.string 'logo', null: false
   end
-
 end
