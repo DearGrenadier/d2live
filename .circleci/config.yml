@@ -10,11 +10,11 @@ jobs:
       - checkout
       - restore_cache:
           keys:
-            - d2live-{{ checksum "Gemfile.lock" }}
-            - d2live-
-      - run: bundle check || bundle install
+            - bundle-v2-{{ checksum "Gemfile.lock" }}
+      - run: bundle check || bundle install --path vendor/bundle
       - save_cache:
-          key: d2live-{{ checksum "Gemfile.lock" }}
+          key: bundle-v2-{{ checksum "Gemfile.lock" }}
           paths:
             - vendor/bundle
       - run: bundle exec rubocop
+      - run: bundle exec rspec
