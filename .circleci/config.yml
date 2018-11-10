@@ -1,0 +1,20 @@
+---
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/ruby:2.4.1
+        environment:
+          RAILS_ENV: test
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - d2live-{{ checksum "Gemfile.lock" }}
+            - d2live-
+      - run: bundle check || bundle install
+      - save_cache:
+          key: d2live-{{ checksum "Gemfile.lock" }}
+          paths:
+            - vendor/bundle
+      - run: bundle exec rubocop
