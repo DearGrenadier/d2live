@@ -8,6 +8,7 @@ AllCops:
   Exclude:
     - 'db/**/*.rb'
     - 'bin/*'
+    - 'vendor/**/*'
   TargetRubyVersion: 2.5
 Metrics/LineLength:
   Max: 120

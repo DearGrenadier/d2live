@@ -1,20 +1,53 @@
 ---
 version: 2
+defaults: &defaults
+  working_directory: ~/repo
+  docker:
+    - image: circleci/ruby:2.5.3
+      environment:
+        RAILS_ENV: test
 jobs:
-  build:
-    docker:
-      - image: circleci/ruby:2.4.1
-        environment:
-          RAILS_ENV: test
+  bundle:
+    <<: *defaults
     steps:
       - checkout
+      - attach_workspace:
+          at: ~/repo
       - restore_cache:
           keys:
-            - bundle-v2-{{ checksum "Gemfile.lock" }}
-      - run: bundle check || bundle install --path vendor/bundle
+            - bundle-{{ checksum "Gemfile.lock" }}
+      - run: bundle install --jobs=4 --retry=2 --path=vendor/bundle
       - save_cache:
-          key: bundle-v2-{{ checksum "Gemfile.lock" }}
+          key: bundle-{{ checksum "Gemfile.lock" }}
           paths:
             - vendor/bundle
+      - persist_to_workspace:
+          root: .
+          paths: vendor/bundle
+  rubocop:
+    <<: *defaults
+    steps:
+      - checkout
+      - attach_workspace:
+          at: ~/repo
+      - run: bundle --path vendor/bundle
       - run: bundle exec rubocop
+  rspec:
+    <<: *defaults
+    steps:
+      - checkout
+      - attach_workspace:
+          at: ~/repo
+      - run: bundle --path vendor/bundle
       - run: bundle exec rspec
+workflows:
+  version: 2
+  build:
+    jobs:
+      - bundle
+      - rubocop:
+          requires:
+            - bundle
+      - rspec:
+          requires:
+            - bundle
