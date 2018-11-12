@@ -1,4 +1,0 @@
-development:
-  SECRET_KEY_BASE:
-  TELEGRAM_BOT_API_TOKEN:
-  STEAM_API_KEY:

@@ -8,5 +8,4 @@
 !/tmp/.keep
 
 # Ignore application configuration
-/config/*.yml
-!/config/*.sample.yml
+.env

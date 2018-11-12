@@ -1,7 +1,0 @@
-development:
-  adapter: postgresql
-  encoding: utf8
-  database: d2live_development
-  pool: 5
-  username:
-  password:
