@@ -40,9 +40,20 @@ jobs:
           at: ~/repo
       - run: bundle --path vendor/bundle
       - run: bundle exec rspec
+  deploy:
+    machine:
+      services:
+        - docker
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - run: |
+          docker login --username=$HEROKU_LOGIN --password=$HEROKU_API_KEY registry.heroku.com
+          docker build -t registry.heroku.com/d2live/release .
+          docker push registry.heroku.com/d2live/release
 workflows:
   version: 2
-  build:
+  check-and-deploy:
     jobs:
       - bundle
       - rubocop:
@@ -51,3 +62,10 @@ workflows:
       - rspec:
           requires:
             - bundle
+      - deploy:
+          requires:
+            - rubocop
+            - rspec
+          filters:
+            branches:
+              only: master

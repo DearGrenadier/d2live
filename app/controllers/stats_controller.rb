@@ -6,5 +6,6 @@ class StatsController < ApplicationController
     @matches_count = Match.count
     @live_matches = Match.live
     @finished_matches = Match.finished.last(10)
+    @last_commit_message = `git log -1 --pretty=%B`
   end
 end
