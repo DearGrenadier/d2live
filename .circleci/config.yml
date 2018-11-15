@@ -48,9 +48,23 @@ jobs:
     steps:
       - checkout
       - run: |
+          docker build -t $APP_NAME .
           docker login --username=$HEROKU_LOGIN --password=$HEROKU_API_KEY registry.heroku.com
-          docker build -t registry.heroku.com/d2live/release .
-          docker push registry.heroku.com/d2live/release
+          docker tag $APP_NAME registry.heroku.com/$APP_NAME/web
+          docker push registry.heroku.com/$APP_NAME/web
+          export WEB_DOCKER_IMAGE_ID=$(docker inspect registry.heroku.com/$APP_NAME/web --format={{.Id}})
+          curl -n -X PATCH https://api.heroku.com/apps/$APP_NAME/formation \
+            -d '{
+            "updates": [
+              {
+                "type": "web",
+                "docker_image": "'"$WEB_DOCKER_IMAGE_ID"'"
+              }
+            ]
+          }' \
+            -H "Content-Type: application/json" \
+            -H "Accept: application/vnd.heroku+json; version=3.docker-releases" \
+            -H "Authorization: Bearer $HEROKU_API_KEY"
 workflows:
   version: 2
   check-and-deploy:

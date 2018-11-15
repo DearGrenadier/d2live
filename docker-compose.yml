@@ -12,7 +12,6 @@ services:
     build: .
     volumes:
       - .:/d2live
-    command: puma
     ports:
       - 3000:3000
     depends_on:
