@@ -17,8 +17,8 @@ gem 'puma', '3.10.0'
 gem 'rails', '5.1.6'
 gem 'rubocop', '0.60.0', require: false
 gem 'sidekiq', '5.0.5'
+gem 'sidekiq-scheduler', '3.0.0'
 gem 'telegram-bot-ruby', '0.8.4'
-gem 'whenever', '0.9.7', require: false
 gem 'wkhtmltoimage-binary', '0.12.4', require: false
 
 group :development, :test do

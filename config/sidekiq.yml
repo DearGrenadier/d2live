@@ -1,0 +1,7 @@
+:schedule:
+  track_matches:
+    every: '1m'
+    class: TrackMatchesWorker
+  fetch_leagues_info:
+    every: '1d'
+    class: FetchLeaguesInfoWorker

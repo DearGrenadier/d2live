@@ -5,6 +5,7 @@ class RegisterNewMatchWorker
 
   def perform(match_raw)
     match_id = match_raw.delete('match_id')
+    logger.info "Register new match ##{match_id}"
     match = Match.create!(id: match_id, raw: match_raw)
     %w[radiant_team dire_team].map { |side| match_raw.dig(side, 'team_id') }.each do |team_id|
       RegisterTeamWorker.new.perform(team_id) unless Team.exists? team_id
