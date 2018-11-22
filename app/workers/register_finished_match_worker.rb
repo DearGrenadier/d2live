@@ -7,6 +7,6 @@ class RegisterFinishedMatchWorker
     match = Match.find(match_id)
     logger.info "Register finished match ##{match.id}"
     match.update!(finished: true)
-    MatchEndNotification.new(match).send
+    # MatchEndNotification.new(match).send
   end
 end

@@ -6,11 +6,14 @@ class FetchLeaguesInfoWorker
   include Sidekiq::Worker
 
   def perform
-    DOTA_CLIENT.leagues.each do |league|
-      league_id = league.raw.delete('leagueid')
+    response = Faraday.get('https://api.opendota.com/api/leagues')
+    json = JSON.parse response.body
+
+    json.each do |league|
+      league_id = league.delete('leagueid')
       unless League.exists?(league_id)
-        League.create!(id: league_id, raw: league.raw)
-        logger.info "Save league #{league.raw.fetch('name')}"
+        League.create!(id: league_id, raw: league)
+        logger.info "Save league #{league.fetch('name')}"
       end
     end
   end

@@ -14,15 +14,17 @@ class Match < ApplicationRecord
   end
 
   def tier
-    PRO_TIERS.fetch(raw.fetch('league_tier'))
+    League.find_by_id(raw.fetch('league_id'))&.tier
   end
 
-  def radiant_team
-    Team.find raw.dig('radiant_team', 'team_id')
+  def radiant
+    raw['team_name_radiant']
+    # Team.find raw.dig('radiant_team', 'team_id')
   end
 
-  def dire_team
-    Team.find raw.dig('dire_team', 'team_id')
+  def dire
+    raw['team_name_dire']
+    # Team.find raw.dig('dire_team', 'team_id')
   end
 
   def consistent?
