@@ -14,7 +14,7 @@ class Match < ApplicationRecord
   end
 
   def tier
-    PRO_TIERS.fetch(raw.fetch('league_tier'))
+    League.find_by_id(raw.fetch('league_id'))&.tier
   end
 
   def radiant_team
