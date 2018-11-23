@@ -48,17 +48,25 @@ jobs:
     steps:
       - checkout
       - run: |
-          docker build -t $APP_NAME .
+          docker build -t d2live_image .
+          docker build -t web -f Dockerfile.web .
+          docker build -t worker -f Dockerfile.worker.
           docker login --username=$HEROKU_LOGIN --password=$HEROKU_API_KEY registry.heroku.com
-          docker tag $APP_NAME registry.heroku.com/$APP_NAME/web
-          docker push registry.heroku.com/$APP_NAME/web
+          docker tag web registry.heroku.com/$APP_NAME/web
+          docker tag worker registry.heroku.com/$APP_NAME/worker
+          docker push registry.heroku.com/$APP_NAME/web registry.heroku.com/$APP_NAME/worker
           export WEB_DOCKER_IMAGE_ID=$(docker inspect registry.heroku.com/$APP_NAME/web --format={{.Id}})
+          export WORKER_DOCKER_IMAGE_ID=$(docker inspect registry.heroku.com/$APP_NAME/worker --format={{.Id}})
           curl -n -X PATCH https://api.heroku.com/apps/$APP_NAME/formation \
             -d '{
             "updates": [
               {
                 "type": "web",
                 "docker_image": "'"$WEB_DOCKER_IMAGE_ID"'"
+              },
+              {
+                "type": "worker",
+                "docker_image": "'"$WORKER_DOCKER_IMAGE_ID"'"
               }
             ]
           }' \
