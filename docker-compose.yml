@@ -12,6 +12,7 @@ services:
     build: .
     volumes:
       - .:/d2live
+    command: bundle exec puma -C config/puma.rb
     ports:
       - 3000:3000
     depends_on:
@@ -19,9 +20,9 @@ services:
       - redis
   sidekiq:
     build: .
+    command: bundle exec sidekiq -C config/sidekiq.yml
     depends_on:
       - db
       - redis
-    command: bundle exec sidekiq
     volumes:
       - '.:/d2live'

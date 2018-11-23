@@ -1,0 +1,2 @@
+FROM d2live_image
+CMD bundle exec sidekiq -C config/sidekiq.yml
