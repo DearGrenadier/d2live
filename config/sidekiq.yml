@@ -1,8 +1,11 @@
 :concurrency: 3
 :schedule:
-  track_matches:
-    every: '1m'
-    class: TrackMatchesWorker
+  track_new_matches:
+    every: '3m'
+    class: TrackNewMatchesWorker
+  track_finished_matches:
+    every: '3m'
+    class: TrackFinishedMatchesWorker
   fetch_leagues_info:
     every: '1d'
     class: FetchLeaguesInfoWorker
