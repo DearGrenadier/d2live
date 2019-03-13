@@ -1,0 +1,2648 @@
+[
+  {
+    "banner": "econ/leagues/subscriptions_esport_btv__asus_dota2_tournament_ingame",
+    "leagueid": 4247,
+    "name": "eSPORT BTV : ASUS DOTA2 Tournament",
+    "ticket": "econ/leagues/subscriptions_esport_btv__asus_dota2_tournament",
+    "tier": "amateur"
+  },
+  {
+    "banner": null,
+    "leagueid": 4167,
+    "name": "Nepal In-House League",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 4194,
+    "name": "Dubai E-Sports Championship",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 4249,
+    "name": "Acer Predator Dota 2 Online Tournament",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 4325,
+    "name": "Shanghai Major Open Qualifiers",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10408,
+    "name": "Who next?",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10447,
+    "name": "QFL 2018",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10459,
+    "name": "T3G dota turnaus",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10485,
+    "name": "Iran Dota2 League – S5",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 10529,
+    "name": "Collegiate Starleague Winter Invitational 2019 (Varsity)",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10547,
+    "name": "QIWI Teamplay Season 3",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 10611,
+    "name": "Destruction ",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 4447,
+    "name": "RD2L Season 9",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 4479,
+    "name": "The Manila Major 2016",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 4542,
+    "name": "StarLadder Pro League Season 14",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 4565,
+    "name": "Rookie Cup 2016",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 4580,
+    "name": "Dota 2 Canada Cup Season 7 - Open Qualifiers",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 4613,
+    "name": "KOD League",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 4646,
+    "name": "SL i-League StarSeries S2",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 4662,
+    "name": "D2AZC Season Three Dota2 Online Tournament",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 4704,
+    "name": "Serie XLG Dota 2 - First Split",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 10475,
+    "name": "Game Arena Qualify 2",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10487,
+    "name": "“中炅阁海通杯”三亚DOTA2新星赛",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 10524,
+    "name": "Cyber Oblivion Premier Cup",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10571,
+    "name": "Primeiro Torneio de X1 Trilha do Meio dos Brothers",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": "econ/leagues/subscriptions_nadotaleague_ingame",
+    "leagueid": 74,
+    "name": "NADota Elite League",
+    "ticket": "econ/leagues/subscriptions_nadotaleague",
+    "tier": null
+  },
+  {
+    "banner": "econ/leagues/subscriptions_ligabel_ingame",
+    "leagueid": 88,
+    "name": "LigaBEL",
+    "ticket": "econ/leagues/subscriptions_ligabel",
+    "tier": "amateur"
+  },
+  {
+    "banner": "econ/leagues/subscriptions_southuralleague_ingame",
+    "leagueid": 94,
+    "name": "South Ural League Season 2",
+    "ticket": "econ/leagues/subscriptions_southuralleague",
+    "tier": "amateur"
+  },
+  {
+    "banner": "econ/leagues/subscriptions_d2cl_ingame",
+    "leagueid": 103,
+    "name": "Dota 2 Champion's League",
+    "ticket": "econ/leagues/subscriptions_d2cl",
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 4475,
+    "name": "RLG Dota 2 Championship - Season 2",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 4576,
+    "name": "Acceleration Season 5",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 4594,
+    "name": "Battles of Winter",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 4638,
+    "name": "Indonesia Cyberia E-Sport Tournament 2016",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 4656,
+    "name": "Dota International's Clan Wars - Season 6",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 4678,
+    "name": "CDEC University League",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 4699,
+    "name": "Esports Pakistan League",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 4724,
+    "name": "AD2L Season 12",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": "econ/leagues/subscriptions_europeanelite_ingame",
+    "leagueid": 108,
+    "name": "European Elite League",
+    "ticket": "econ/leagues/subscriptions_europeanelite",
+    "tier": null
+  },
+  {
+    "banner": "econ/leagues/subscriptions_saratov_ingame",
+    "leagueid": 133,
+    "name": "Saratov Cup Open Finals",
+    "ticket": "econ/leagues/subscriptions_saratov",
+    "tier": null
+  },
+  {
+    "banner": null,
+    "leagueid": 1261,
+    "name": "Serbian Charity Cup - Powered by Razer",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 1713,
+    "name": "1ª Copa OnArt",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 1843,
+    "name": "Crashgame League",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 2595,
+    "name": "NFCups #1",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 5598,
+    "name": "FSL #5 - FemaleDotA2 SEA League Season 5 ",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 5621,
+    "name": "Xportal DOTA2 Championship",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 5629,
+    "name": "RD2L Mini",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 5651,
+    "name": "Malaysia Esports League",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 5675,
+    "name": "EsportUpFirst",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 5698,
+    "name": "Dota2Guys Season 1 Part2",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 5720,
+    "name": "Inside Freedom League",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 5751,
+    "name": "CONQUERORS INSIGNIA ULTIMATE BATTLE",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 5788,
+    "name": "YC Monthly Tournament",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10629,
+    "name": " IVPL (Indonesian Virtual Predator League) SEASON 1",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 10674,
+    "name": "The Mind Game Challenger Series",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10701,
+    "name": "Game Arena Yearly Tournament",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 10708,
+    "name": "MAC Games Open",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10723,
+    "name": "YouTube SIVVIT - Big Russian Show",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 10768,
+    "name": "ESL Indonesia Championship Season 1, presented by Indofood",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 65010,
+    "name": "AMD DOTA 2 Beginner’s Challenge",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 10672,
+    "name": "Japan Dota League Season 2",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10697,
+    "name": "Ladramhaiola",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10711,
+    "name": "Gaming Hub Pro Series ",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 10729,
+    "name": "GESS Minilympic 2019",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10747,
+    "name": "Level Esports Series",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10771,
+    "name": "AD2L Seasons 2x",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": "econ/leagues/subscriptions_megalodon_ingame",
+    "leagueid": 89,
+    "name": "Megalodon Cup Season 1",
+    "ticket": "econ/leagues/subscriptions_megalodon",
+    "tier": null
+  },
+  {
+    "banner": null,
+    "leagueid": 5860,
+    "name": "gg all",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10426,
+    "name": "The Purple Tournament ",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10452,
+    "name": "The Bucharest Minor 2019",
+    "ticket": null,
+    "tier": "premium"
+  },
+  {
+    "banner": null,
+    "leagueid": 10477,
+    "name": "ESL SURA.BRAZEN.ID",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 10488,
+    "name": "“中炅阁海通杯”三亚DOTA2新星赛",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 10533,
+    "name": "RD2L EU Season 16",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10551,
+    "name": "joinDOTA Turbo Masters",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 10560,
+    "name": "MDL Macau",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 10577,
+    "name": "Evento de Fin de Año",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10601,
+    "name": "SPRING FESTIVAL CUP",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 10648,
+    "name": "MantanDoto League",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10665,
+    "name": "Apex Predator Online Dota 2 Tournament",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 10680,
+    "name": "Game Arena Annual Tournament",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 10712,
+    "name": "Rostelecom Cup: Season 4",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10728,
+    "name": "High Ground Vision",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10751,
+    "name": "AEF DPL S2",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 10772,
+    "name": "ELSA Season 1 Qualifier",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10466,
+    "name": "FOG Talent Cup 2018",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10502,
+    "name": "FroggedTV 2019",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10513,
+    "name": "JD.ID High School League Indonesia",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 10527,
+    "name": "Collegiate Starleague Spring 2019 (Varsity)",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10541,
+    "name": "Chinese Dota2 Winter Cup",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 10555,
+    "name": "Nameless Dota 2 League",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10574,
+    "name": "Bepro Champions",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10595,
+    "name": "D2G",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10627,
+    "name": "Learn Dota 2 League Season 4",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10647,
+    "name": "joinDOTA League #15",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 10735,
+    "name": "ESM.zone League 2019-2020",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10760,
+    "name": "TOURNAMENT SURA ESPORTS SEASON 1",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 65019,
+    "name": "BanglaGamer Dota 2 Championship",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 10476,
+    "name": "Trainer Dota 2 League",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10504,
+    "name": "YouTube SIVVIT - Big Russian Show",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 10516,
+    "name": "Volgograd Dota 2 League",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 10532,
+    "name": "challenge cup",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 10549,
+    "name": "Super Battle Cup Season 2",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10558,
+    "name": "I Can't Believe It's Not Summit",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 10567,
+    "name": "H-CUP",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10572,
+    "name": "PIO TV",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10639,
+    "name": "Rostovskiy Tournament: Season 7",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 10653,
+    "name": "Shadow League",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10679,
+    "name": "Game Arena Qualify 3",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10703,
+    "name": "WeRageTV Tournament",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10715,
+    "name": "WinterFiesta'19",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10731,
+    "name": "Rainha do Verão",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10743,
+    "name": "NightHunters CyberLeague",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10770,
+    "name": "P.A City Cup - 8º Edição",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10512,
+    "name": "Sri Lanka Cyber Games (SLCG) 2018",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10548,
+    "name": " North American Dota Challengers League",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10559,
+    "name": "Hardstyle Minor League ",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 10591,
+    "name": "Arcteryx's League",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10602,
+    "name": "FASTCUP League",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10619,
+    "name": "Burning Cup",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10649,
+    "name": "GESS MAJORLYMPIC 2019",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10663,
+    "name": "Indonesia Esports League 2019",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10710,
+    "name": "ESL AUNZ Championship Season 3 (2019)",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 10727,
+    "name": "Tug of War: Radiant",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 10746,
+    "name": "Asia Pro League S2",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 10769,
+    "name": "Alpaca Army Cup Season 2",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": "econ/leagues/subscriptions_corrupted_cup__season_10_ingame",
+    "leagueid": 4414,
+    "name": "Corrupted Cup - Season 10",
+    "ticket": "econ/leagues/subscriptions_corrupted_cup__season_10",
+    "tier": "amateur"
+  },
+  {
+    "banner": null,
+    "leagueid": 10578,
+    "name": "Evento de Año Nuevo (Torneo 1Vs1) &quot;Mejor Héroe&quot;",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10604,
+    "name": "LOOT.BET winter masters",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 10615,
+    "name": "Geostrike DOTA 2 Open Tournament",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10646,
+    "name": "ESL One Mumbai 2019 powered by Intel",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 10662,
+    "name": "Tehran Esports Season 2 Powerd By iLLiDan Game Center",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10693,
+    "name": "Bhutan ametuar league",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10720,
+    "name": "lobbak official",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": "econ/leagues/subscriptions_d2ccs2_ingame",
+    "leagueid": 113,
+    "name": "Dota 2 Canada Cup Season 2",
+    "ticket": "econ/leagues/subscriptions_d2ccs2",
+    "tier": null
+  },
+  {
+    "banner": "econ/leagues/subscriptions_sudamerican_ingame",
+    "leagueid": 130,
+    "name": "Sudamerican Master",
+    "ticket": "econ/leagues/subscriptions_sudamerican",
+    "tier": null
+  },
+  {
+    "banner": "econ/leagues/subscriptions_slcg_ingame",
+    "leagueid": 65015,
+    "name": "Sri Lanka Cyber Games 2013",
+    "ticket": "econ/leagues/subscriptions_slcg",
+    "tier": null
+  },
+  {
+    "banner": "econ/leagues/subscriptions_ael_ingame",
+    "leagueid": 156,
+    "name": "Australian E-Sports League 2014 Summer Cup",
+    "ticket": "econ/leagues/subscriptions_ael",
+    "tier": null
+  },
+  {
+    "banner": "econ/leagues/subscriptions_sumatera_ingame",
+    "leagueid": 168,
+    "name": "South Sumatera Dota 2 Amateur League 2014",
+    "ticket": "econ/leagues/subscriptions_sumatera",
+    "tier": null
+  },
+  {
+    "banner": "econ/leagues/subscriptions_peru_ingame",
+    "leagueid": 178,
+    "name": "GamerSportPeru",
+    "ticket": "econ/leagues/subscriptions_peru",
+    "tier": null
+  },
+  {
+    "banner": null,
+    "leagueid": 10592,
+    "name": "NIMA Tournaments ",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 10607,
+    "name": "GEMU",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10621,
+    "name": "Atlantic League",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10642,
+    "name": "Apex Predator Tournament",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 10696,
+    "name": "IMMORTALS CUP",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10656,
+    "name": "Hunt Wave League",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 10669,
+    "name": "DC e-Sport Division",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": "econ/leagues/subscriptions_tita_dota2_national_ingame",
+    "leagueid": 4814,
+    "name": "TIta Dota2 National",
+    "ticket": "econ/leagues/subscriptions_tita_dota2_national",
+    "tier": "amateur"
+  },
+  {
+    "banner": null,
+    "leagueid": 10685,
+    "name": "Fights.club Daily Tournaments",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10704,
+    "name": "Collegiate Starleague Playoffs 2019 (Varsity)",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10734,
+    "name": "Zvaigžņu Šķūnis",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10761,
+    "name": "Ricardothon",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": "econ/leagues/subscriptions_slt_esports_championship_2016_ingame",
+    "leagueid": 5058,
+    "name": "SLT eSports Championship 2016",
+    "ticket": "econ/leagues/subscriptions_slt_esports_championship_2016",
+    "tier": "amateur"
+  },
+  {
+    "banner": null,
+    "leagueid": 10667,
+    "name": "Factoff cup 4",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10678,
+    "name": "JJB Spring Cup 竞技宝春季杯",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 10702,
+    "name": "Liga Pro Gaming",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 10726,
+    "name": "Winter Dota Finland",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10742,
+    "name": "GGWP.OZ",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 10766,
+    "name": "Swedish IHL",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 65018,
+    "name": "GameLadders DOTA 2 League ",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": "econ/leagues/subscriptions_aes_amateur_open__dota_2_ingame",
+    "leagueid": 4528,
+    "name": "AES Amateur Open - Dota 2",
+    "ticket": "econ/leagues/subscriptions_aes_amateur_open__dota_2",
+    "tier": "amateur"
+  },
+  {
+    "banner": "econ/leagues/subscriptions_the_battle_series_december_2016_ingame",
+    "leagueid": 4969,
+    "name": "The Battle Series December 2016",
+    "ticket": "econ/leagues/subscriptions_the_battle_series_december_2016",
+    "tier": "amateur"
+  },
+  {
+    "banner": "econ/leagues/subscriptions_u_tournament_ingame",
+    "leagueid": 5404,
+    "name": "U Tournament",
+    "ticket": "econ/leagues/subscriptions_u_tournament",
+    "tier": "amateur"
+  },
+  {
+    "banner": "econ/leagues/subscriptions_americas_ingame",
+    "leagueid": 9,
+    "name": "Machinima ECAL: Americas",
+    "ticket": "econ/leagues/subscriptions_americas",
+    "tier": null
+  },
+  {
+    "banner": "econ/leagues/subscriptions_internal_ingame",
+    "leagueid": 65000,
+    "name": "The Internal",
+    "ticket": "econ/leagues/subscriptions_internal_ingame",
+    "tier": null
+  },
+  {
+    "banner": "econ/leagues/subscriptions_razerminimadness_ingame",
+    "leagueid": 10,
+    "name": "Razer Mini Madness",
+    "ticket": "econ/leagues/subscriptions_razerminimadness",
+    "tier": null
+  },
+  {
+    "banner": "econ/leagues/subscriptions_international_ingame",
+    "leagueid": 65001,
+    "name": "The International 2012",
+    "ticket": "econ/leagues/subscriptions_international_ingame",
+    "tier": "professional"
+  },
+  {
+    "banner": "econ/leagues/subscriptions_corsair_sum13_ingame",
+    "leagueid": 57,
+    "name": "Corsair Summer 2013",
+    "ticket": "econ/leagues/subscriptions_corsair_sum13",
+    "tier": "professional"
+  },
+  {
+    "banner": "econ/leagues/subscriptions_tpl_season3_ingame",
+    "leagueid": 15,
+    "name": "Premier League",
+    "ticket": "econ/leagues/subscriptions_tpl_season3",
+    "tier": "professional"
+  },
+  {
+    "banner": "econ/leagues/subscriptions_absolutearenakoh_ingame",
+    "leagueid": 11,
+    "name": "AbsoluteArena King of the Hill",
+    "ticket": "econ/leagues/subscriptions_absolutearenakoh",
+    "tier": null
+  },
+  {
+    "banner": "econ/leagues/subscriptions_d2l_ingame",
+    "leagueid": 12,
+    "name": "RaidCall Dota 2 League",
+    "ticket": "econ/leagues/subscriptions_d2l",
+    "tier": "professional"
+  },
+  {
+    "banner": "econ/leagues/subscriptions_4pl_dota2_ingame",
+    "leagueid": 65003,
+    "name": "4Players League",
+    "ticket": "econ/leagues/subscriptions_4pl_dota2",
+    "tier": null
+  },
+  {
+    "banner": "econ/leagues/subscriptions_rcemsone_ingame",
+    "leagueid": 28,
+    "name": "RaidCall EMS One Spring 2013",
+    "ticket": "econ/leagues/subscriptions_rcemsone",
+    "tier": "professional"
+  },
+  {
+    "banner": "econ/leagues/subscriptions_cdec_season1_ingame",
+    "leagueid": 55,
+    "name": "CDEC Season 2-4",
+    "ticket": "econ/leagues/subscriptions_cdec_season1",
+    "tier": null
+  },
+  {
+    "banner": "econ/leagues/subscriptions_risingstars_ingame",
+    "leagueid": 90,
+    "name": "Rising Stars Dota League",
+    "ticket": "econ/leagues/subscriptions_risingstars",
+    "tier": null
+  },
+  {
+    "banner": "econ/leagues/subscriptions_netolic4_ingame",
+    "leagueid": 97,
+    "name": "Netolic Pro League 4",
+    "ticket": "econ/leagues/subscriptions_netolic4",
+    "tier": "professional"
+  },
+  {
+    "banner": "econ/leagues/subscriptions_seac_2016_ingame",
+    "leagueid": 4553,
+    "name": "SEAC 2016",
+    "ticket": "econ/leagues/subscriptions_seac_2016",
+    "tier": "amateur"
+  },
+  {
+    "banner": "econ/leagues/subscriptions_sdl_ingame",
+    "leagueid": 119,
+    "name": "SDL 1",
+    "ticket": "econ/leagues/subscriptions_sdl",
+    "tier": null
+  },
+  {
+    "banner": "econ/leagues/subscriptions_beyondthesummit_ingame",
+    "leagueid": 7,
+    "name": "BeyondTheSummit World Tour",
+    "ticket": "econ/leagues/subscriptions_beyondthesummit",
+    "tier": "professional"
+  },
+  {
+    "banner": "econ/leagues/subscriptions_prodota2_ingame",
+    "leagueid": 8,
+    "name": "Prodota 2 Worldwide League",
+    "ticket": "econ/leagues/subscriptions_prodota2",
+    "tier": "professional"
+  },
+  {
+    "banner": "econ/leagues/subscriptions_gest_ingame",
+    "leagueid": 14,
+    "name": "GEST Dota 2",
+    "ticket": "econ/leagues/subscriptions_gest",
+    "tier": null
+  },
+  {
+    "banner": "econ/leagues/subscriptions_nexon_starter_ingame",
+    "leagueid": 65007,
+    "name": "Nexon Starter League",
+    "ticket": "econ/leagues/subscriptions_nexon_starter",
+    "tier": "professional"
+  },
+  {
+    "banner": "econ/leagues/subscriptions_starladder4_ingame",
+    "leagueid": 20,
+    "name": "Star Series Season IV",
+    "ticket": "econ/leagues/subscriptions_starladder4",
+    "tier": "professional"
+  },
+  {
+    "banner": "econ/leagues/subscriptions_armageddon_ingame",
+    "leagueid": 31,
+    "name": "Armageddon Dota 2 Grand Slam!",
+    "ticket": "econ/leagues/subscriptions_armageddon",
+    "tier": null
+  },
+  {
+    "banner": "econ/leagues/subscriptions_starladder3_ingame",
+    "leagueid": 13,
+    "name": "Star Series Season III",
+    "ticket": "econ/leagues/subscriptions_starladder3",
+    "tier": "professional"
+  },
+  {
+    "banner": "econ/leagues/subscriptions_gleague_ingame",
+    "leagueid": 24,
+    "name": "G-League 2012",
+    "ticket": "econ/leagues/subscriptions_gleague",
+    "tier": "professional"
+  },
+  {
+    "banner": "econ/leagues/subscriptions_herodota2_ingame",
+    "leagueid": 155,
+    "name": "Hero Dota: Second Chapter",
+    "ticket": "econ/leagues/subscriptions_herodota2",
+    "tier": null
+  },
+  {
+    "banner": "econ/leagues/subscriptions_ciscarnage_ingame",
+    "leagueid": 166,
+    "name": "CIS Carnage 2014 Ticket",
+    "ticket": "econ/leagues/subscriptions_ciscarnage",
+    "tier": null
+  },
+  {
+    "banner": "econ/leagues/subscriptions_ecw_ingame",
+    "leagueid": 116,
+    "name": "Elite Clan Wars",
+    "ticket": "econ/leagues/subscriptions_ecw",
+    "tier": null
+  },
+  {
+    "banner": "econ/leagues/subscriptions_killing_spree_ingame",
+    "leagueid": 25,
+    "name": "Killing Spree: North America",
+    "ticket": "econ/leagues/subscriptions_killing_spree",
+    "tier": null
+  },
+  {
+    "banner": "econ/leagues/subscriptions_mmasia_ingame",
+    "leagueid": 5,
+    "name": "It's Gosu Monthly Madness Asia",
+    "ticket": "econ/leagues/subscriptions_mmasia",
+    "tier": null
+  },
+  {
+    "banner": "econ/leagues/subscriptions_starladder2_ingame",
+    "leagueid": 6,
+    "name": "Star Series Season II Lan Final",
+    "ticket": "econ/leagues/subscriptions_starladder2",
+    "tier": "professional"
+  },
+  {
+    "banner": "econ/leagues/subscriptions_neolution_gosucup_ingame",
+    "leagueid": 60,
+    "name": "Neolution GosuCup",
+    "ticket": "econ/leagues/subscriptions_neolution_gosucup",
+    "tier": "professional"
+  },
+  {
+    "banner": "econ/leagues/subscriptions_troll_ingame",
+    "leagueid": 1316,
+    "name": "The Troll's Treasure",
+    "ticket": "econ/leagues/subscriptions_troll",
+    "tier": "amateur"
+  },
+  {
+    "banner": "econ/leagues/subscriptions_g-1_season5_ingame",
+    "leagueid": 34,
+    "name": "G-1 Champions League Season 5",
+    "ticket": "econ/leagues/subscriptions_g-1_season5",
+    "tier": "professional"
+  },
+  {
+    "banner": "econ/leagues/subscriptions_gleague2013_ingame",
+    "leagueid": 114,
+    "name": "G-League 2013",
+    "ticket": "econ/leagues/subscriptions_gleague2013",
+    "tier": "professional"
+  },
+  {
+    "banner": "econ/leagues/subscriptions_tampa_ingame",
+    "leagueid": 159,
+    "name": "Tampa eSports Winter WonderLAN 2014",
+    "ticket": "econ/leagues/subscriptions_tampa",
+    "tier": null
+  },
+  {
+    "banner": null,
+    "leagueid": 4529,
+    "name": "KUK LEAGUE SEASON 1",
+    "ticket": "econ/leagues/subscriptions_kuk_league_season_1",
+    "tier": "amateur"
+  },
+  {
+    "banner": "econ/leagues/subscriptions_bestofthebest_ingame",
+    "leagueid": 93,
+    "name": "Road to the Asian Cyber Games 2013 - Indian Qualifier",
+    "ticket": "econ/leagues/subscriptions_bestofthebest",
+    "tier": null
+  },
+  {
+    "banner": "econ/leagues/subscriptions_orena_ingame",
+    "leagueid": 122,
+    "name": "The Orena",
+    "ticket": "econ/leagues/subscriptions_orena",
+    "tier": null
+  },
+  {
+    "banner": null,
+    "leagueid": 1111,
+    "name": "­",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 1245,
+    "name": "SuL",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 9681,
+    "name": "epic23",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 5413,
+    "name": "WUCG",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 17,
+    "name": "G-1 Champions League Season 5",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 36,
+    "name": "Netolic Pro League 2nd edition",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 164,
+    "name": "DoteirÃ£o League Season 5",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 181,
+    "name": "joinDOTA League",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 192,
+    "name": "Orena Dota 2 Cup",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 205,
+    "name": "Zotac Starleague 2014",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 215,
+    "name": "MSI 'Beat It' Gaming League",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 224,
+    "name": "ProDotA 2 Solo Ranked League Season 3",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 232,
+    "name": "SLTV Star Series Season 9",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 501,
+    "name": "Pro Gaming Tours League March",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 507,
+    "name": "E-Sports Arena Cup",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 38,
+    "name": "E2Max L33T Championship",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 158,
+    "name": "AD2L Season 2",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 184,
+    "name": "MLG T.K.O.",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 197,
+    "name": "KDL Season 1",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 208,
+    "name": "Netolic Amateur League - Season 1",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 217,
+    "name": "Brunei Dota League 2014",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 226,
+    "name": "CIS Dota 2 League",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 230,
+    "name": "Torresmo Legacy League",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 240,
+    "name": "FGCL: CIS Open Cup",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 510,
+    "name": "FSL #2 - FemaleDotA2 SEA League Season 2",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 1004,
+    "name": "Star Cloud League",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 1022,
+    "name": "PantheonES CUP",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 40,
+    "name": "AMD Dota2 Premier League",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 157,
+    "name": "AD2L Season 1 Playoffs",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 190,
+    "name": "ESPL Season 1",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 43,
+    "name": "PGF Summer Assembly",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 146,
+    "name": "AsianCyberGames Dota 2 Championship 2013",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 189,
+    "name": "Oscar.Cup Tournament Season 3",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 201,
+    "name": "MPGL Presented by Gigabyte Season 6 SEA Qualifiers",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 219,
+    "name": "ICL DotA 2 LAN",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 231,
+    "name": "RO goes PRO",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 505,
+    "name": "DotA2VO.Ru Ability Cup #1",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 1005,
+    "name": "Testleague",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 1026,
+    "name": "Dota Trash Destruction",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 1050,
+    "name": "KDL Tier3 Community Competition",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 1069,
+    "name": "Sweaty Cup 2",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 1093,
+    "name": "Learn 2 Play Australian Masters",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 1116,
+    "name": "Esports Champion League",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 1135,
+    "name": "D2L Western Challenge",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 45,
+    "name": "Premier League Season 5 ",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 174,
+    "name": "AsianCyberGames SEA Invitational - BEST OF THE BEST",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 193,
+    "name": "AD2L Season 3 Open",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 207,
+    "name": "SDL 2014 Season One Finale",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 218,
+    "name": "Thursday Evening Cup Series Season 2",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 227,
+    "name": "CFC Elite Cup",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 236,
+    "name": "Dota2.Ru Cup #2",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 503,
+    "name": "Amateur Dota 2 League Season 3 Invitational",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 1003,
+    "name": "ExcellentMoscowCup",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 1016,
+    "name": "Astrological sign championship",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 1032,
+    "name": "FSL #2 - FemaleDotA2 SEA League Season 2",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 1060,
+    "name": "Japan Dota2 League #1",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 1073,
+    "name": "Crazy Cup #1",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 1082,
+    "name": "AAULAN",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 137,
+    "name": "SDL 2014 Season 1",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 177,
+    "name": "Netolic Pro League 5 - East",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 203,
+    "name": "DotaCinema Presents: The XMG Captains Draft Invitational",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 234,
+    "name": "deafESL Dota2 League Season 2",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 600,
+    "name": "The International 2014",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 1018,
+    "name": "PinoyDotA Online Battle Season 2",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 1925,
+    "name": "Yard Red Festival",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 2762,
+    "name": "efsftew",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 3332,
+    "name": "EVERY DAY",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 10318,
+    "name": "OESL",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 4949,
+    "name": "SFG Champions League Season 3",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 5005,
+    "name": "Sri Lanka Cyber Games (SLCG) 2016",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 5038,
+    "name": "Go2Olymp",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 5080,
+    "name": "RevivaLTV Weekdays Tournament",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 5115,
+    "name": "World Cyber Arena 2016 Grand Finals",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 5197,
+    "name": "Dota 2 Asia Championships 2017",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 5291,
+    "name": "DotaPy Season 3",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 5383,
+    "name": "AD2L Season 16",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 5407,
+    "name": "ESL India Premiership - 2017 Edition",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 5436,
+    "name": "Lenovo Legion Dota 2 Perfect World College League",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 5476,
+    "name": "RD2L Season 12 IHL",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 5508,
+    "name": "Hungarian Dota 2 League Season Three",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 5774,
+    "name": "ESTJK 1 - Tajikistan Championship",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 5802,
+    "name": "Game Plus Championship Dota2 Season 1",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 5823,
+    "name": "TOURNAMENT DOTA 2 SEASON 3 BOY_NET",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 5840,
+    "name": "Xenuss Cup",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 5872,
+    "name": "TKM national qualification",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 8073,
+    "name": "Wecasual",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 9556,
+    "name": "Voyager Christmas Brawl",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 9589,
+    "name": "Grand Opening Stream Gaming Community",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 9606,
+    "name": "Ragequitcup Monthly Faceoff",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 5804,
+    "name": "Speed Gaming Tournament Season 1",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 5825,
+    "name": "Dota2.RU Monthly",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 5853,
+    "name": "DOTA 2 INDONESIA LEAUGE",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 8056,
+    "name": "Bros Unity",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 8074,
+    "name": "ACER Predator League",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 9557,
+    "name": "Yada Dota2 Super League Season 1",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 9575,
+    "name": "DOTA 2 INDONESIA ONLINE TOURNEY by Maxmund 5",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 9582,
+    "name": "3v3 GG",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 9601,
+    "name": "EPICENTER XL",
+    "ticket": null,
+    "tier": "premium"
+  },
+  {
+    "banner": null,
+    "leagueid": 9612,
+    "name": "Tuesday Morning Amature League",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 9627,
+    "name": "Himakom Tournament",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 9647,
+    "name": "Tercer Torneo Rampage",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 9661,
+    "name": "DoTA 2 Bhutan Season 5 League 2018",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 9588,
+    "name": "C Y R U S . CUP - Season 1",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 9604,
+    "name": "Adzik Dota 2 Brawl",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 9620,
+    "name": "IGG tournament Season 2",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 9639,
+    "name": "№1524 Dota 2 Lyceum Cup 1",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 9656,
+    "name": "RD2L Season 13",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 9677,
+    "name": "GCDL Season 12",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 9707,
+    "name": "X1 Sarradins do DOTA 3ª Temporada",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 9734,
+    "name": "Infinty Battle Cup. Bronze. Round 1.",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 9776,
+    "name": "Ultimate Battle",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 9765,
+    "name": "Keluh Basah Dota 2 League ",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 9787,
+    "name": "Liga D2CIH Temporada 1",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 9807,
+    "name": "ESL Brasil Premier League",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 9817,
+    "name": "AD2L  Season 20",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 9853,
+    "name": "ESL MocilDoto- League",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 9868,
+    "name": "BaperGamingLeague",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 9871,
+    "name": "SIVVIT",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 9898,
+    "name": "MAJALAYA DOTA 2 CUP",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 9909,
+    "name": "Crown Cup",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 9943,
+    "name": "CHINA DOTA2 SUPER MAJOR",
+    "ticket": null,
+    "tier": "premium"
+  },
+  {
+    "banner": null,
+    "leagueid": 9974,
+    "name": "Cobx Masters 2018 : Phase I",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 9986,
+    "name": "Liga FED - Temporada 4",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 9940,
+    "name": "ViciusCUP",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 9971,
+    "name": "NON STOP Energy League",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 9981,
+    "name": "Tiger Uppercut ",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10163,
+    "name": "RD2L Inhouse 2",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10332,
+    "name": "MC Autumn Brawl",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 10341,
+    "name": "TNG League 1",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 10356,
+    "name": "OESL LEAGUE",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10367,
+    "name": "Dota 2 Informatika Unsoed 2018",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10396,
+    "name": "SLT eSports Championship 2018",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10407,
+    "name": "Collegiate Starleague Fall 2018 (Junior Varsity)",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10440,
+    "name": "Winter Madness",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 10449,
+    "name": "CSL Inhouse League (2018-2019)",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10458,
+    "name": "Mail.ru Esports",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 10469,
+    "name": "PSE Pro League",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 10482,
+    "name": "The Chongqing Major",
+    "ticket": null,
+    "tier": "premium"
+  },
+  {
+    "banner": null,
+    "leagueid": 10493,
+    "name": "Rostovskiy Tournament: Season 6",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10505,
+    "name": "Hunt Wave League",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 10517,
+    "name": "RD2L EU Draft Cup",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10478,
+    "name": "Myanmar Esports Association Monthly Tournament",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10494,
+    "name": "Shootout",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10507,
+    "name": "Tehran Esports Season 1 Powerd by iLLiDan Game Cneter",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10520,
+    "name": "LOOT.BET winter masters",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 10539,
+    "name": "中国电子竞技娱乐大赛",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10557,
+    "name": "Rakay Cyber Cafe",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10564,
+    "name": "BDL Season 2 SEA",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10573,
+    "name": "Rise of Legion : by Lenovo Winter Season ",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10587,
+    "name": "OpenCup 2019 #1",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10603,
+    "name": "安博电竞杯中亚对抗赛",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 10614,
+    "name": "Shenae Cup Christmas Magic",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10623,
+    "name": "Konotop Winter Cup [S08]",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10584,
+    "name": "PAC Divine League",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10598,
+    "name": "Дота2.com  (Mark Toxxter)  League",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 10612,
+    "name": "Cobx Masters 2018 : Phase II",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 10630,
+    "name": "IVPL (Indonesian Virtual Pro League)",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 10660,
+    "name": "Processor Gaming",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10677,
+    "name": "Copa Incontrastable 2019",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 10722,
+    "name": "Iran Dota2 League – S5",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 10736,
+    "name": "Dota Ultimate Championship",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": "econ/leagues/subscription_logo_the_wildcards",
+    "leagueid": 3,
+    "name": "Wild Cards East",
+    "ticket": "econ/tools/gift_multiple",
+    "tier": "premium"
+  },
+  {
+    "banner": "econ/leagues/the_defense",
+    "leagueid": 4,
+    "name": "The Defense",
+    "ticket": "econ/leagues/subscriptions_thedefense",
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 32,
+    "name": "WePlay Dota 2",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": "econ/leagues/subscriptions_atod3_ingame",
+    "leagueid": 37,
+    "name": "AtoD 3",
+    "ticket": "econ/leagues/subscriptions_atod3",
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 2040,
+    "name": "AD2L Season 5",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 2347,
+    "name": "NCups Season 1",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 2396,
+    "name": "Clash of Pubs",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 0,
+    "name": "JetsetPro Amateur League 1x1 Season 1",
+    "ticket": null,
+    "tier": "amateur"
+  },
+  {
+    "banner": null,
+    "leagueid": 4039,
+    "name": "CDEC Classic",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 4514,
+    "name": "ChuangLeague S3",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 1212,
+    "name": "Dota 2 Just For Fun",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": "econ/leagues/subscription_logo_the_wildcards",
+    "leagueid": 2,
+    "name": "Wild Cards West",
+    "ticket": "econ/tools/gift_multiple",
+    "tier": "premium"
+  },
+  {
+    "banner": null,
+    "leagueid": 1089,
+    "name": "2ª Copa BoraDota",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 1152,
+    "name": "Dota 2 GR Female League",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 2523,
+    "name": "Zonda Cup",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 4219,
+    "name": "UIUC League",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 4310,
+    "name": "Dotamax内战联赛",
+    "ticket": null,
+    "tier": "excluded"
+  },
+  {
+    "banner": null,
+    "leagueid": 4729,
+    "name": "Red Bull Heroicks",
+    "ticket": null,
+    "tier": "professional"
+  },
+  {
+    "banner": null,
+    "leagueid": 5401,
+    "name": "The International 2017",
+    "ticket": null,
+    "tier": "professional"
+  }
+]
