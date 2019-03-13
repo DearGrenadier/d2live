@@ -4,3 +4,10 @@ development:
   database: d2live_development
   pool: <%= ENV.fetch('RAILS_MAX_THREADS') { 5 } %>
   url: <%= ENV['DATABASE_URL'] %>
+
+test:
+  adapter: postgresql
+  encoding: utf8
+  database: d2live_test
+  pool: <%= ENV.fetch('RAILS_MAX_THREADS') { 5 } %>
+  url: <%= ENV['DATABASE_URL'] %>

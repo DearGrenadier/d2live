@@ -6,14 +6,25 @@ class FetchLeaguesInfoWorker
   include Sidekiq::Worker
 
   def perform
-    response = Faraday.get('https://api.opendota.com/api/leagues')
-    json = JSON.parse response.body
+    logger = Logger.new("#{Rails.root}/log/#{Rails.env}_#{self.class.name.underscore}.log")
+    logger.info '----- Performing leagues info fetching job -----'
 
-    json.each do |league|
+    response = Faraday.get('https://api.opendota.com/api/leagues')
+    data = JSON.parse response.body
+
+    save_leagues(data) do |league|
+      logger.info "Save league <<#{league.fetch('name')}>>"
+    end
+  end
+
+  private
+
+  def save_leagues(data, &_block)
+    data.select { |league| league.fetch('tier').in? League::TIERS }.each do |league|
       league_id = league.delete('leagueid')
       unless League.exists?(league_id)
         League.create!(id: league_id, raw: league)
-        logger.info "Save league #{league.fetch('name')}"
+        yield(league) if block_given?
       end
     end
   end

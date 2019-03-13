@@ -6,6 +6,11 @@ defaults: &defaults
     - image: circleci/ruby:2.5.3
       environment:
         RAILS_ENV: test
+        DATABASE_URL: postgres://postgres@localhost:5432/d2live_test
+    - image: circleci/postgres:9.5-alpine
+      environment:
+        POSTGRES_USER: postgres
+        POSTGRES_DB: d2live_test
 jobs:
   bundle:
     <<: *defaults
@@ -39,7 +44,9 @@ jobs:
       - attach_workspace:
           at: ~/repo
       - run: bundle --path vendor/bundle
-      - run: bundle exec rspec
+      - run: dockerize -wait tcp://localhost:5432 -timeout 1m
+      - run: bin/rails db:schema:load --trace
+      - run: bundle exec rspec -O .rspec
   deploy:
     machine:
       services:
