@@ -7,6 +7,8 @@ Rails.application.routes.draw do
   mount Sidekiq::Web => '/sidekiq'
   root to: 'stats#index'
   resources :leagues, only: :index
+  resources :live_matches, only: :index
+  resources :finished_matches, only: :index
   post "telegram_#{ENV.fetch('SECRET_KEY_BASE')}" => 'telegram_webhook#show'
 
   resources :live_matches, only: :show
