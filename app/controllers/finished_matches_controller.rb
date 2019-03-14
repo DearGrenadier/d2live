@@ -3,6 +3,6 @@
 class FinishedMatchesController < ApplicationController
   def index
     @finished_matches_count = Match.finished.count
-    @worker_log = `tail -n 30 log/#{Rails.env}_#{TrackFinishedMatchesWorker.name.underscore}.log`
+    @recent_matches = Match.finished.last(10).reverse
   end
 end

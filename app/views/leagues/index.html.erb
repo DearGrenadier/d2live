@@ -2,6 +2,6 @@
   <b>Leagues count:</b> <%= @leagues_count %>
 </p>
 <hr/>
-<pre>
-  <%= @worker_log.html_safe %>
-</pre>
+<% @recent_leagues.each do |league| %>
+  <p><%= league.id %> | <%= league.name %> | <%= league.created_at %></p>
+<% end %>

@@ -3,7 +3,7 @@
 class LiveMatchesController < ApplicationController
   def index
     @live_matches_count = Match.live.count
-    @worker_log = `tail -n 30 log/#{Rails.env}_#{TrackNewMatchesWorker.name.underscore}.log`
+    @live_matches = Match.live
   end
 
   def show
