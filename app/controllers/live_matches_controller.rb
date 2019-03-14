@@ -1,10 +1,7 @@
 # frozen_string_literal: true
 
 class LiveMatchesController < ApplicationController
-  def index
-    @live_matches_count = Match.live.count
-    @worker_log = `tail -n 30 log/#{Rails.env}_#{TrackNewMatchesWorker.name.underscore}.log`
-  end
+  layout false
 
   def show
     @match = Match.find(params.fetch(:id))
@@ -17,7 +14,7 @@ class LiveMatchesController < ApplicationController
       end
 
       format.html do
-        render :show, layout: false
+        render :show
       end
     end
   end
