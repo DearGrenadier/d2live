@@ -1,5 +1,7 @@
 ---
 version: 2
+orbs:
+  heroku: circleci/heroku@1.0.0
 defaults: &defaults
   working_directory: ~/repo
   docker:
@@ -81,6 +83,8 @@ jobs:
             -H "Content-Type: application/json" \
             -H "Accept: application/vnd.heroku+json; version=3.docker-releases" \
             -H "Authorization: Bearer $HEROKU_API_KEY"
+          heroku run rake db:migrate -a $APP_NAME
+
 workflows:
   version: 2
   check-and-deploy:

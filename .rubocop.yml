@@ -16,5 +16,6 @@ Metrics/LineLength:
 Metrics/BlockLength:
   Exclude:
     - "**/*_spec.rb"
+    - "spec/factories/*.rb"
 Style/Documentation:
   Enabled: false

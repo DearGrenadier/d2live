@@ -2,6 +2,8 @@
   <b>Finished matches count:</b> <%= @finished_matches_count %>
 </p>
 <hr/>
-<pre>
-  <%= @worker_log.html_safe %>
-</pre>
+<% @recent_matches.each do |match| %>
+  <p>
+    [<%= match.league_name %> | <%= match.id %> | <%= match.updated_at %>] <%= match.radiant %> VS <%= match.dire %>
+  </p>
+<% end %>

@@ -3,6 +3,6 @@
 class LeaguesController < ApplicationController
   def index
     @leagues_count = League.count
-    @worker_log = `tail -n 30 log/#{Rails.env}_#{FetchLeaguesInfoWorker.name.underscore}.log`
+    @recent_leagues = League.last(10).reverse
   end
 end
