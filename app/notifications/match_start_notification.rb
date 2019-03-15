@@ -8,8 +8,8 @@ class MatchStartNotification
   end
 
   def send
-    Chat.find_each do |_chat|
-      TELEGRAM_BOT_CLIENT.api.send_photo(chat_id: Chat.first.id, photo: live_match_url(@match.id, format: :jpg))
+    Chat.find_each do |chat|
+      TELEGRAM_BOT_CLIENT.api.send_photo(chat_id: chat.id, photo: live_match_url(@match.id, format: :png))
     end
   end
 end

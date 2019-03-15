@@ -5,6 +5,7 @@ RSpec.describe TrackFinishedMatchesWorker do
   describe '#perform' do
     before do
       stub_request(:get, "https://api.opendota.com/api/matches/#{match.id}").to_return(response)
+      allow(MatchEndNotification).to receive(:new).and_return(double(send: nil))
     end
 
     context 'with error response' do

@@ -13,7 +13,7 @@ class TrackFinishedMatchesWorker
       # data = JSON.parse response.body
 
       match.update!(finished: true)
-      # MatchEndNotification.new(match).send
+      MatchEndNotification.new(match).send
     end
   end
 end

@@ -22,7 +22,8 @@ class TrackNewMatchesWorker
   def save_matches(matches)
     matches.each do |match_raw|
       match_id = match_raw.delete('match_id')
-      Match.create!(id: match_id, raw: match_raw)
+      match = Match.create!(id: match_id, raw: match_raw)
+      MatchStartNotification.new(match).send
     end
   end
 end

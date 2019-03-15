@@ -5,4 +5,20 @@ class FinishedMatchesController < ApplicationController
     @finished_matches_count = Match.finished.count
     @recent_matches = Match.finished.last(10).reverse
   end
+
+  def show
+    @match = Match.find(params.fetch(:id))
+
+    respond_to do |format|
+      kit = IMGKit.new(render_to_string('show.html.erb'))
+
+      format.png do
+        send_data(kit.to_png, type: 'image/png', disposition: 'inline')
+      end
+
+      format.html do
+        render :show, layout: false
+      end
+    end
+  end
 end
