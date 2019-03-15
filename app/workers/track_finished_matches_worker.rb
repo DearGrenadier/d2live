@@ -7,7 +7,7 @@ class TrackFinishedMatchesWorker
 
   def perform
     Match.live.each do |match|
-      response = Faraday.get("https://api.opendota.com/api/match/#{match.id}")
+      response = Faraday.get("https://api.opendota.com/api/matches/#{match.id}")
       next if response.status == 404
 
       # data = JSON.parse response.body
