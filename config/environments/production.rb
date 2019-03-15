@@ -79,6 +79,5 @@ Rails.application.configure do
 end
 
 Rails.application.default_url_options = {
-  host: 'nazarchuk.tk',
-  protocol: 'https'
+  host: ENV['HOST_URL']
 }

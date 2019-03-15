@@ -4,6 +4,6 @@
 
 `docker-compose up --build`
 
-`./ngrock http 3000`
+`ngrok http 3000`
 
-`docker-compose run web set_webhook[ssl_ngrock_forwarding]`
+`docker-compose run web rake set_webhook\[ssl_ngrock_forwarding]\`
