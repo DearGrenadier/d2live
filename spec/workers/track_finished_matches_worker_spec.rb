@@ -4,7 +4,7 @@ RSpec.describe TrackFinishedMatchesWorker do
   # speed up test using less mocked response size
   describe '#perform' do
     before do
-      stub_request(:get, "https://api.opendota.com/api/match/#{match.id}").to_return(response)
+      stub_request(:get, "https://api.opendota.com/api/matches/#{match.id}").to_return(response)
     end
 
     context 'with error response' do
