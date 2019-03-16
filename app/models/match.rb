@@ -1,11 +1,6 @@
 # frozen_string_literal: true
 
 class Match < ApplicationRecord
-  PRO_TIERS = {
-    3 => 'Premier',
-    2 => 'Professional'
-  }.freeze
-
   scope :live, -> { where(finished: false) }
   scope :finished, -> { where(finished: true) }
 
@@ -18,16 +13,10 @@ class Match < ApplicationRecord
   end
 
   def radiant
-    raw['team_name_radiant']
-    # Team.find raw.dig('radiant_team', 'team_id')
+    Team.find raw['team_id_radiant']
   end
 
   def dire
-    raw['team_name_dire']
-    # Team.find raw.dig('dire_team', 'team_id')
-  end
-
-  def consistent?
-    [radiant_team, dire_team].all?
+    Team.find raw['team_id_dire']
   end
 end

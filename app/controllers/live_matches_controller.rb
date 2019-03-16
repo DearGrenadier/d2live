@@ -10,15 +10,14 @@ class LiveMatchesController < ApplicationController
     @match = Match.find(params.fetch(:id))
 
     respond_to do |format|
-      kit = IMGKit.new(render_to_string('show.html.erb'))
+      kit = IMGKit.new(render_to_string('show.html.erb'), disable_smart_width: true, width: 1280)
+      kit.stylesheets << "#{Rails.root}/app/assets/stylesheets/application.css"
 
       format.png do
         send_data(kit.to_png, type: 'image/png', disposition: 'inline')
       end
 
-      format.html do
-        render :show, layout: false
-      end
+      format.html { render(:show, layout: false) }
     end
   end
 end

@@ -9,3 +9,6 @@
   fetch_leagues_info:
     every: '1d'
     class: FetchLeaguesInfoWorker
+  fetch_teams_info:
+    every: '1d'
+    class: FetchTeamsInfoWorker

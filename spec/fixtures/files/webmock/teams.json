@@ -1,0 +1,72 @@
+[
+  {
+    "team_id": 1838315,
+    "rating": 1661.22,
+    "wins": 622,
+    "losses": 321,
+    "last_match_time": 1552656601,
+    "name": "Team Secret",
+    "tag": "Secret",
+    "logo_url": "https://steamcdn-a.akamaihd.net/apps/dota2/images/team_logos/1838315.png"
+  },
+  {
+    "team_id": 2163,
+    "rating": 1520.21,
+    "wins": 749,
+    "losses": 452,
+    "last_match_time": 1552656601,
+    "name": "Team Liquid",
+    "tag": "Liquid",
+    "logo_url": "https://steamcdn-a.akamaihd.net/apps/dota2/images/team_logos/2163.png"
+  },
+  {
+    "team_id": 15,
+    "rating": 1453.78,
+    "wins": 1007,
+    "losses": 674,
+    "last_match_time": 1552657802,
+    "name": "PSG.LGD",
+    "tag": "PSG.LGD",
+    "logo_url": "https://steamcdn-a.akamaihd.net/apps/dota2/images/team_logos/15.png"
+  },
+  {
+    "team_id": 5228654,
+    "rating": 1450.04,
+    "wins": 79,
+    "losses": 36,
+    "last_match_time": 1535061995,
+    "name": "VGJ Storm",
+    "tag": "VGJ.Storm",
+    "logo_url": "https://steamcdn-a.akamaihd.net/apps/dota2/images/team_logos/5228654.png"
+  },
+  {
+    "team_id": 5026801,
+    "rating": 1429.8,
+    "wins": 176,
+    "losses": 116,
+    "last_match_time": 1535053843,
+    "name": "",
+    "tag": "",
+    "logo_url": "https://steamcdn-a.akamaihd.net/apps/dota2/images/team_logos/5026801.png"
+  },
+  {
+    "team_id": 39,
+    "rating": 1425.51,
+    "wins": 929,
+    "losses": 572,
+    "last_match_time": 1552656600,
+    "name": "Evil Geniuses",
+    "tag": "EG",
+    "logo_url": "https://steamcdn-a.akamaihd.net/apps/dota2/images/team_logos/39.png"
+  },
+  {
+    "team_id": 1883502,
+    "rating": 1410.58,
+    "wins": 1012,
+    "losses": 806,
+    "last_match_time": 1552662001,
+    "name": "Virtus.pro",
+    "tag": "VP",
+    "logo_url": "https://steamcdn-a.akamaihd.net/apps/dota2/images/team_logos/1883502.png"
+  }
+]
