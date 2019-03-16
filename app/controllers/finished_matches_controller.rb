@@ -10,7 +10,7 @@ class FinishedMatchesController < ApplicationController
     @match = Match.find(params.fetch(:id))
 
     respond_to do |format|
-      kit = IMGKit.new(render_to_string('show.html.erb'), width: 1280)
+      kit = IMGKit.new(render_to_string('show.html.erb'), width: 640)
       kit.stylesheets << "#{Rails.root}/app/assets/stylesheets/application.css"
 
       format.png do
