@@ -1,7 +1,5 @@
 ---
 version: 2
-orbs:
-  heroku: circleci/heroku@1.0.0
 defaults: &defaults
   working_directory: ~/repo
   docker:

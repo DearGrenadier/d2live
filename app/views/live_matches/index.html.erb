@@ -4,6 +4,6 @@
 <hr/>
 <% @live_matches.each do |match| %>
   <p>
-    [<%= match.league_name %> | <%= match.id %> | <%= match.created_at %>] <%= match.radiant %> VS <%= match.dire %>
+    [<%= match.league_name %> | <%= match.id %> | <%= match.created_at %>] <%= match.radiant.name %> VS <%= match.dire.name %>
   </p>
 <% end %>

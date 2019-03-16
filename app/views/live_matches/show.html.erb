@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8">
   </head>
-  <body style="margin: 0; padding: 0;">
-    <div style="background: #2E2E44; height: 50px; width: 300px; border: 1px white solid;">
-      <div style="float: left;">
-        <span style="color: white;"><%= @match.radiant %></span>
+  <body>
+    <div class="match-start-layout">
+      <div>
+        <%= image_data_tag(@match.radiant.logo_url) %>
+        <span class="team-tag"><%= @match.radiant.tag %></span>
       </div>
-      <div style="color: blue;">
+      <div class="league-name">
         <%= @match.league_name %>
       </div>
       <div>
-        <span style="color: white;"><%= @match.dire %></span>
+        <%= image_data_tag(@match.dire.logo_url) %>
+        <span class="team-tag"><%= @match.dire.tag %></span>
       </div>
     </div>
   </body>

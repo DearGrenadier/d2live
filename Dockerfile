@@ -1,5 +1,5 @@
 FROM ruby:2.5.3
-RUN apt-get update -qq && apt-get install -y build-essential libpq-dev cron
+RUN apt-get update -qq && apt-get install -y build-essential libpq-dev
 RUN mkdir /d2live
 WORKDIR /d2live
 COPY Gemfile* /d2live/
