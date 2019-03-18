@@ -2,19 +2,58 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <%= stylesheet_link_tag "application.css" %>
   </head>
   <body>
     <div class="match-start-layout">
-      <div>
-        <%= image_data_tag(@match.radiant&.logo_url) %>
-        <span class="team-tag"><%= @match.radiant&.tag %></span>
-      </div>
       <div class="league-name">
         <%= @match.league_name %>
       </div>
-      <div>
-        <%= image_data_tag(@match.dire&.logo_url) %>
-        <span class="team-tag"><%= @match.dire&.tag %></span>
+      <div class="radiant">
+        <div class="bans">
+          <% @match.radiant_bans.each do |ban| %>
+            <div class="ban">
+              <%= image_data_tag(ban.hero.img_url, class_name: 'ban-img') %>
+              <div class="red-line"></div>
+            </div>
+          <% end %>
+        </div>
+
+        <div class="picks">
+          <div class="team">
+            <%= image_data_tag(@match.radiant&.logo_url, class_name: 'team-img') %>
+            <span class="team-tag"><%= @match.radiant&.tag %></span>
+          </div>
+          <% @match.radiant_picks.each do |pick| %>
+            <div class="pick">
+              <%= image_data_tag(pick.hero.img_url, class_name: 'pick-img') %>
+            </div>
+          <% end %>
+        </div>
+      </div>
+
+      <div class="dire">
+        <div class="picks">
+          <div class="team">
+            <%= image_data_tag(@match.dire&.logo_url, class_name: 'team-img') %>
+            <span class="team-tag"><%= @match.dire&.tag %></span>
+          </div>
+
+          <% @match.dire_picks.each do |pick| %>
+            <div class="pick">
+              <%= image_data_tag(pick.hero.img_url, class_name: 'pick-img') %>
+            </div>
+          <% end %>
+        </div>
+
+        <div class="bans">
+          <% @match.dire_bans.each do |ban| %>
+            <div class="ban">
+              <%= image_data_tag(ban.hero.img_url, class_name: 'ban-img') %>
+              <div class="red-line"></div>
+            </div>
+          <% end %>
+        </div>
       </div>
     </div>
   </body>

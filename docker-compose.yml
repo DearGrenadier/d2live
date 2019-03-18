@@ -9,6 +9,8 @@ services:
     volumes:
       - ./tmp/redis:/data
   web:
+    stdin_open: true
+    tty: true
     build: .
     volumes:
       - .:/d2live
@@ -19,6 +21,8 @@ services:
       - db
       - redis
   sidekiq:
+    stdin_open: true
+    tty: true
     build: .
     command: bundle exec sidekiq -C config/sidekiq.yml
     depends_on:
