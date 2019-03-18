@@ -4,6 +4,6 @@
 <hr/>
 <% @recent_matches.each do |match| %>
   <p>
-    [<%= match.league_name %> | <%= match.id %> | <%= match.updated_at %>] <%= match.radiant.name %> VS <%= match.dire.name %>
+    [<%= match.league_name %> | <%= match.id %> | <%= match.updated_at %>] <%= match.radiant&.name %> VS <%= match.dire&.name %>
   </p>
 <% end %>

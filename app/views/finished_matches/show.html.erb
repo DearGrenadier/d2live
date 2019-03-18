@@ -5,15 +5,15 @@
   <body>
     <div class="match-finish-layout">
       <div>
-        <%= image_data_tag(@match.radiant.logo_url) %>
-        <span class="team-tag"><%= @match.radiant.tag %></span>
+        <%= image_data_tag(@match.radiant&.logo_url) %>
+        <span class="team-tag"><%= @match.radiant&.tag %></span>
       </div>
       <div class="league-name">
         <%= @match.league_name %>
       </div>
       <div>
-        <%= image_data_tag(@match.dire.logo_url) %>
-        <span class="team-tag"><%= @match.dire.tag %></span>
+        <%= image_data_tag(@match.dire&.logo_url) %>
+        <span class="team-tag"><%= @match.dire&.tag %></span>
       </div>
     </div>
   </body>

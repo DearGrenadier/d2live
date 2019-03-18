@@ -13,10 +13,10 @@ class Match < ApplicationRecord
   end
 
   def radiant
-    Team.find raw['team_id_radiant']
+    Team.find_by_id raw['team_id_radiant']
   end
 
   def dire
-    Team.find raw['team_id_dire']
+    Team.find_by_id raw['team_id_dire']
   end
 end
