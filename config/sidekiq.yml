@@ -12,3 +12,6 @@
   fetch_teams_info:
     every: '1d'
     class: FetchTeamsInfoWorker
+  fetch_pro_players_info:
+    every: '1d'
+    class: FetchProPlayersInfoWorker

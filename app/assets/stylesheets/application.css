@@ -19,22 +19,77 @@ body {
   width: 100%;
 }
 
-img {
-  width: 138px;
-  height: auto;
+.team {
+
 }
 
 .team-tag {
   color: white;
   font-family: Roboto;
-  font-size: 40px;
+  font-size: 20px;
   font-style: bold;
+}
+.team-img {
+  height: 70px;
 }
 
 .league-name {
   color: #eaeaea;
   font-family: Roboto;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
   font-style: italic;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  text-align: center;
+}
+
+.radiant {
+}
+
+.dire {
+  margin-top: 20px;
+}
+
+.bans {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.ban {
+  margin: 5px 0;
+  position: relative;
+  border: 1px solid #eaeaea;
+  border-radius: 3px;
+  width: 54px;
+  height: 30px
+}
+
+.ban-img {
+  width: 54px;
+  height: 30px
+}
+
+.red-line {
+  position: absolute;
+  z-index: 1;
+  left: -3px;
+  right: -5px;
+  top: 14px;
+  -webkit-transform: rotate(-28deg);
+  border-top: 2px solid red;
+}
+
+.picks {
+  display: inline-block;
+}
+
+.pick {
+  display: inline-block;
+  width: 108px;
+}
+
+.pick-img {
+  width: 108px;
+  height: 60px
 }
