@@ -7,3 +7,12 @@
 `ngrok http 3000`
 
 `docker-compose run web rake set_webhook\[ssl_ngrock_forwarding]\`
+
+# Seed jobs list
+`FetchLeaguesInfoWorker.perform_async`
+
+`FetchTeamsInfoWorker.perform_async`
+
+`FetchProPlayersInfoWorker.perform_async`
+
+`FetchHeroesInfoWorker.perform_async`
