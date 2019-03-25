@@ -2,11 +2,11 @@
 # Set up development
 `cp .env.sample .env`
 
-`docker-compose up --build`
-
 `ngrok http 3000`
 
 `docker-compose run web rake set_webhook\[ssl_ngrock_forwarding]\`
+
+`docker-compose up --build`
 
 # Seed jobs list
 `FetchLeaguesInfoWorker.perform_async`

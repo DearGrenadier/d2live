@@ -10,12 +10,29 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20190316104243) do
+ActiveRecord::Schema.define(version: 20190322125450) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
+  create_table "bans", force: :cascade do |t|
+    t.bigint "hero_id"
+    t.bigint "match_id"
+    t.boolean "radiant", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["hero_id", "match_id"], name: "index_bans_on_hero_id_and_match_id", unique: true
+    t.index ["hero_id"], name: "index_bans_on_hero_id"
+    t.index ["match_id"], name: "index_bans_on_match_id"
+  end
+
   create_table "chats", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "heroes", force: :cascade do |t|
+    t.json "raw", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -31,6 +48,27 @@ ActiveRecord::Schema.define(version: 20190316104243) do
     t.boolean "finished", default: false, null: false
     t.datetime "created_at", default: "2019-03-14 14:09:48", null: false
     t.datetime "updated_at", default: "2019-03-14 14:09:48", null: false
+  end
+
+  create_table "picks", force: :cascade do |t|
+    t.bigint "match_id"
+    t.bigint "hero_id"
+    t.bigint "player_id"
+    t.boolean "radiant", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["hero_id"], name: "index_picks_on_hero_id"
+    t.index ["match_id", "hero_id"], name: "index_picks_on_match_id_and_hero_id", unique: true
+    t.index ["match_id"], name: "index_picks_on_match_id"
+    t.index ["player_id"], name: "index_picks_on_player_id"
+  end
+
+  create_table "players", force: :cascade do |t|
+    t.json "raw", null: false
+    t.bigint "team_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["team_id"], name: "index_players_on_team_id"
   end
 
   create_table "teams", force: :cascade do |t|
