@@ -17,7 +17,7 @@ gem 'nokogiri', '>= 1.10.4'
 gem 'pg', '0.21.0'
 gem 'puma', '>= 3.12.2'
 gem 'rack', '>= 2.0.8'
-gem 'rails', '5.1.6'
+gem 'rails', '5.1.6.2'
 gem 'rubocop', '0.60.0', require: false
 gem 'sidekiq', '5.0.5'
 gem 'sidekiq-scheduler', '3.0.0'
