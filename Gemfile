@@ -7,7 +7,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-gem 'carrierwave', '1.2.2'
+gem 'carrierwave', '1.3.2'
 gem 'dota', '0.0.21'
 gem 'faraday', '0.9.2'
 gem 'imgkit', '1.6.1'
